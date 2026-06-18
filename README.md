@@ -26,14 +26,14 @@ python main.py
 
 ### Використані файли
 
-* `main_logs.py` — запуск аналізатора;
+* `main.py` — запуск аналізатора;
 * `io_utils.py` — зчитування лог-файлів;
 * `analysis.py` — аналіз даних журналу подій.
 
 ### Запуск
 
 ```bash
-python main_logs.py
+python main.py
 ```
 
 Перед запуском необхідно переконатися, що в кореневій папці проєкту знаходиться файл `logs.txt`.
@@ -57,17 +57,27 @@ python main_logs.py
 ## Структура репозиторію
 
 ```text
-.
-├── main.py
-├── main_logs.py
-├── io_utils.py
-├── analysis.py
-└── README.md
+
+PracticalAssignment6
+├── PracticalAssignment6_1
+│   ├── analysis.py
+│   ├── input.txt
+│   ├── io_utils.py
+│   ├── main.py
+│   └── results.txt
+│
+└── PracticalAssignment6_2
+    ├── analysis.py
+    ├── io_utils.py
+    ├── logs.txt
+    └── main.py
+
 ```
+
 
 ## Автор
 
-Ваше ім'я та прізвище
+Taras Svitlychnyi
 
 ## Рік виконання
 
