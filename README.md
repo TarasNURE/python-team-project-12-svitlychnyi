@@ -26,7 +26,7 @@ python main.py
 
 ### Використані файли
 
-* `main.py` — запуск аналізатора;
+* `main_logs.py` — запуск аналізатора;
 * `io_utils.py` — зчитування лог-файлів;
 * `analysis.py` — аналіз даних журналу подій.
 
@@ -70,7 +70,7 @@ PracticalAssignment6
     ├── analysis.py
     ├── io_utils.py
     ├── logs.txt
-    └── main.py
+    └── main_logs.py
 
 ```
 
